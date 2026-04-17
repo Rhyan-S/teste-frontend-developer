@@ -6,7 +6,7 @@ Este repositório contém a resolução do teste técnico para a vaga de Desenvo
 
 Para avaliar a responsividade, o pré-processamento de CSS e as animações de forma imediata, acesse o link do projeto em produção:
 
-🔗 ** **
+🔗 ** https://teste-frontend-developer-ivory.vercel.app/ **
 
 > **Nota:** A hospedagem acima é focada exclusivamente na entrega de arquivos estáticos (Front-End). Para avaliar a submissão do formulário no Banco de Dados, siga as instruções de execução local abaixo.
 
