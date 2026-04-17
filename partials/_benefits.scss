@@ -1,0 +1,57 @@
+.benefits {
+    padding: 80px 0;
+    text-align: center;
+    background-color: $color-bg-white;
+
+    &__main-title {
+        margin-bottom: 50px;
+        font-size: 2.2rem;
+        color: $color-text-heading;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        margin-bottom: 50px;
+
+        @media (max-width: 768px) {
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+    }
+
+    &__action {
+        margin-top: 40px;
+    }
+}
+
+.benefit-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    text-align: left;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    &__icon {
+        flex-shrink: 0;
+        font-size: 2rem;
+        color: $color-brand-orange;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+        color: $color-text-heading;
+    }
+
+    &__text {
+        font-size: 0.95rem;
+        line-height: 1.6;
+    }
+}

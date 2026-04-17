@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+@import "partials/colors";
+@import "partials/layout";
+@import "partials/header";
+@import "partials/hero";
+@import "partials/about";
+@import "partials/benefits";
+@import "partials/faq";
+@import "partials/footer";

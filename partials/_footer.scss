@@ -1,0 +1,74 @@
+.cta-final {
+    padding: 80px 0;
+    background-color: #475569;
+
+    &__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60px;
+
+        @media (max-width: 768px) {
+            flex-direction: column;
+            text-align: center;
+        }
+    }
+
+    &__text {
+        flex: 1;
+        color: $color-bg-white;
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 2.5rem;
+            line-height: 1.2;
+        }
+
+        p {
+            font-size: 1.1rem;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+    }
+
+    &__card {
+        flex: 1;
+        padding: 40px;
+        text-align: center;
+        background-color: $color-bg-white;
+        border-radius: 12px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+
+        p {
+            margin-bottom: 24px;
+            line-height: 1.6;
+            color: $color-text-body;
+        }
+
+        .btn {
+            width: 100%;
+            margin-bottom: 15px;
+        }
+
+        span {
+            display: block;
+            font-size: 0.85rem;
+            color: $color-text-light;
+        }
+    }
+}
+
+.footer {
+    padding: 30px 0;
+    font-size: 0.9rem;
+    text-align: center;
+    color: $color-bg-white;
+    background-color: #1e293b;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        opacity: 0.7;
+    }
+}
